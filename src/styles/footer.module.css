@@ -1,0 +1,58 @@
+/* src/styles/footer.module.css */
+.footer {
+    background-color: #4e342e; /* chocolate */
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .companyInfo {
+    flex: 1;
+  }
+  
+  .links, .socialMedia {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .links a, .socialMedia a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .links a:hover, .socialMedia a:hover {
+    color: #d2691e; /* orange */
+  }
+  
+  .footerBottom {
+    border-top: 1px solid #d2691e; /* orange */
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .footerContent {
+      flex-direction: column;
+    }
+  
+    .links, .socialMedia {
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+  
