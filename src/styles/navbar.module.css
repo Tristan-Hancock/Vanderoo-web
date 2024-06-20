@@ -29,16 +29,19 @@
   }
   
   .logoImage {
-    height: 40px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
     margin-right: 10px;
+    border-radius: 100%;
+    object-fit:cover;
   }
   
   .navLinks {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 100px;
     margin-left: auto; /* Move links to the left */
-    margin-right: 70px; /* Add some space to the right */
+    margin-right: 600px; /* Add some space to the right */
+    font-weight: 20;
   }
   
   .navLinks li {
@@ -70,21 +73,8 @@
     background: white;
   }
   
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      align-items: center; /* Center align the navbar content */
-    }
-  
-    .navLinks {
-      flex-direction: column;
-      gap: 10px;
-      margin-left: 0;
-      margin-right: 0;
-    }
-  
-    .navLinks a {
-      font-size: 1em;
-    }
+  /* Add padding to body to offset the height of the fixed header */
+  body {
+    padding-top: 40px; /* Adjust based on header height */
   }
   

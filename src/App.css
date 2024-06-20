@@ -1,8 +1,11 @@
+/* src/App.css */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fff8e1; 
+  background-color: #fff8e1; /* lightest shade of white */
   color: #4e342e; /* chocolate */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,5 +22,12 @@ a:hover {
 
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+.content {
+  flex: 1;
+  padding: 20px;
 }

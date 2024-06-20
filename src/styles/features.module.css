@@ -1,0 +1,25 @@
+/* src/styles/features.module.css */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff8e1; /* lightest shade of white */
+    width: 50%; /* Half the screen width */
+    margin: 0 auto;
+  }
+  
+  .feature {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .feature img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .feature p {
+    color: #4e342e; /* chocolate */
+  }
+  

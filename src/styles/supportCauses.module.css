@@ -1,0 +1,30 @@
+/* src/styles/supportCauses.module.css */
+.supportCauses {
+    padding: 20px;
+    background-color: #fff8e1; /* lightest shade of white */
+    text-align: center;
+    width: 50%; /* Half the screen width */
+    margin: 0 auto;
+  }
+  
+  .supportCauses h2 {
+    color: #d2691e; /* orange */
+  }
+  
+  .supportCauses p {
+    color: #4e342e; /* chocolate */
+  }
+  
+  .supportButton {
+    background-color: #d2691e; /* orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .supportButton:hover {
+    background-color: #ff8c00; /* darker shade of orange */
+  }
+  

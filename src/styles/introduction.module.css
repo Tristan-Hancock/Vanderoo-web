@@ -1,0 +1,17 @@
+/* src/styles/introduction.module.css */
+.introduction {
+    padding: 20px;
+    background-color: #fff8e1; /* lightest shade of white */
+    text-align: center;
+    width: 50%; /* Half the screen width */
+    margin: 0 auto;
+  }
+  
+  .introduction h2 {
+    color: #d2691e; /* orange */
+  }
+  
+  .introduction p {
+    color: #4e342e; /* chocolate */
+  }
+  
