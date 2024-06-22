@@ -11,14 +11,11 @@ function Showcase() {
         <div className={styles.imageContainer}>
           <img src={iphone} alt="Showcase" className={styles.image} />
           <div className={styles.imageShadow}></div>
-          
-
         </div>
         <div className={styles.textContainer}>
           <h2>The Vanderoo App</h2>
-          <p>Connect with travelers as they pass through your region.</p>
-          <p>Promote your business as a beacon of support for people who work and live on the road.</p>
-          <p>Offer discounts that will attract up to 16.9 Million US travelers to your business.</p>
+          <p>Download the Vanderoo app and join the nomad community and create your own Tribes!.</p>
+          <p>Discover where fellow nomads are visiting and sharing their experiences as well as mark your favorite memorys</p>
         </div>
       </div>
       <div className={styles.imageLinks}>

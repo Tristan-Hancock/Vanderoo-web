@@ -1,17 +1,87 @@
 /* src/styles/introduction.module.css */
 .introduction {
-    padding: 20px;
-    background-color: #fff8e1; /* lightest shade of white */
-    text-align: center;
-    width: 50%; /* Half the screen width */
-    margin: 0 auto;
+  display: flex;
+  height: 100vh;
+  background-color: #fff8e1;
+}
+
+.contentLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.imageRight {
+  flex: 1;
+  /* Add placeholder for image */
+  background-color: #fff8e1;
+}
+
+.title {
+  font-size: 3rem;
+  color: #d2691e;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #4e342e;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #4e342e;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary {
+  background-color: #d2691e;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #b35a1f;
+}
+
+.secondary {
+  background-color: transparent;
+  color: #d2691e;
+  border: 1px solid #d2691e;
+}
+
+.secondary:hover {
+  background-color: rgba(210, 105, 30, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .introduction {
+    flex-direction: column;
   }
-  
-  .introduction h2 {
-    color: #d2691e; /* orange */
+
+  .contentLeft {
+    padding: 5%;
   }
-  
-  .introduction p {
-    color: #4e342e; /* chocolate */
+
+  .imageRight {
+    height: 50vh;
   }
-  
+}
