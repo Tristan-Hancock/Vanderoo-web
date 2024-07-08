@@ -19,21 +19,16 @@ function Features() {
         </div>
         <div className={styles.featureCard}>
           <img src={biz} alt="Community BizzFaves" />
-          <h3>Community BizzFaves</h3>
+          <h3>Community BizFaves</h3>
           <p>Community BizzFaves Pin:
           Discover and share beloved local businesses globally. Drop a pin to recommend your favorite spots and explore community-curated gems wherever you roam.</p>
         </div>
          <div className={styles.featureCard}>
           <img src={memory} alt="Personalized Assistance" />
-          <h3>Memory Markers</h3>
+          <h3>MemoryMarks</h3>
           <p>Capture and revisit your most cherished travel moments. Drop a pin, add photos and descriptions to create a personal, interactive travel diary that keeps your adventures alive.</p>
         </div>
-      
-        {/* <div className={styles.featureCard}>
-          <img src="/path-to-assistance-image.png" alt="Regional Chat" />
-          <h3>Regional Chat</h3>
-          <p>Connect with fellow Vanderoo Nomads in your area. Share real-time locations, tips, and experiences to enhance your journey and build a global community.</p>
-        </div>*/}
+    
       </div> 
      
     </section>

@@ -1,29 +1,56 @@
 /* src/styles/aboutMerchant.module.css */
 .aboutMerchant {
-  padding: 20px;
-  background-color: #fff8e1; /* lightest shade of white */
+  background-color: #fff4e6;  /* Consistent light peach background */
+  height: 100vh;  /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content vertically and horizontally */
   text-align: center;
-  width: 50%; /* Half the screen width */
-  margin: 0 auto;
+  padding: 40px; /* Balanced padding */
+  box-sizing: border-box;
+}
+
+.aboutMerchant .content {
+  max-width: 800px; /* Adjust width based on content size */
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 12px; /* Rounded corners */
 }
 
 .aboutMerchant h2 {
-  color: #d2691e; /* orange */
+  color: #cc7a00;  /* Deep peach for headings */
+  font-size: 2.5rem;
+  margin-bottom: 2rem; /* More space below the heading */
 }
 
 .aboutMerchant p {
-  color: #4e342e; /* chocolate */
+  color: #666;
+  font-size: 1.4rem;
+  margin-bottom: 2rem; /* More space below the paragraph */
+}
+
+.benefits {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem; /* More space above the button */
+}
+
+.benefits li {
+  font-size: 1.2rem;
+  margin-bottom: 10px; /* Space between list items */
 }
 
 .signUpButton {
-  background-color: #d2691e; /* orange */
+  background-color: #cc7a00; /* Deep peach, visually appealing */
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
   cursor: pointer;
-  margin-top: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .signUpButton:hover {
-  background-color: #ff8c00; /* darker shade of orange */
+  background-color: #e68a00; /* Lighter peach on hover */
 }

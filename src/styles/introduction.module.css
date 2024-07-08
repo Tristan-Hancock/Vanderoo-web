@@ -1,8 +1,8 @@
-/* src/styles/introduction.module.css */
 .introduction {
   display: flex;
   height: 100vh;
   background-color: #fff8e1;
+  align-items: center; /* Ensures vertical centering */
 }
 
 .contentLeft {
@@ -15,10 +15,20 @@
 
 .imageRight {
   flex: 1;
-  /* Add placeholder for image */
-  background-color: #fff8e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red; /* For visibility */
+  overflow: hidden; /* Ensures no spillover if the image is too large */
+  height: 100vh;
+
 }
 
+.imageRight img {
+  height: 100vh;
+width: 100vh;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
 .title {
   font-size: 3rem;
   color: #d2691e;
@@ -77,11 +87,13 @@
     flex-direction: column;
   }
 
-  .contentLeft {
-    padding: 5%;
+  .contentLeft, .imageRight {
+    flex: 1;
+    padding: 2%; /* Reduced padding for mobile */
   }
 
   .imageRight {
-    height: 50vh;
+    order: -1; /* Moves image above text on mobile */
+    justify-content: flex-end;
   }
 }
