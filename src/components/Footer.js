@@ -13,8 +13,9 @@ function Footer() {
         </div>
         <div className={styles.links}>
           <a href="#about">About Us</a>
-          <a href="#contact">Contact</a>
-          <a href="#privacy">Privacy Policy</a>
+          <a href="mailto:info@vanderoo.com">Contact</a>
+          <a href="https://vanderoo.com/terms.html">Terms Of Service</a>
+          <a href="https://vanderoo.com/privacy.html">Privacy Policy</a>
         </div>
         <div className={styles.socialMedia}>
           <a href="#facebook"><FaFacebook /></a>

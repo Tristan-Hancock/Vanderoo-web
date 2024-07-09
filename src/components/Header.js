@@ -29,10 +29,9 @@ function Header() {
           Vanderoo
         </div>
         <ul className={styles.navLinks}>
-          <li><a href="#merchant">Merchant</a></li>
-          <l1><a href="#contact">Contact Us</a></l1>
-          <li><a href="#download">Download App</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li><a href="https://vanderoo.com/merchant/login.html">Merchant</a></li>
+          <li><a href="mailto:info@vanderoo.com">Contact Us</a></li>
+          <li><a href="https://vanderoo.com/merchant/faq.html">FAQ</a></li>
         </ul>
       </nav>
     </header>

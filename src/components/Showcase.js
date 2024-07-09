@@ -19,10 +19,10 @@ function Showcase() {
         </div>
       </div>
       <div className={styles.imageLinks}>
-  <a href="link-to-page1">
+  <a href="https://apps.apple.com/in/app/vanderoo/id6472674866">
     <img src={appstore} alt="App Store" className={styles.linkedImage} />
   </a>
-  <a href="link-to-page2">
+  <a href="https://play.google.com/store/apps/details?id=com.vanderoo.app&pcampaignid=web_share">
     <img src={playstore} alt="Play Store" className={styles.linkedImage} />
   </a>
 </div>
