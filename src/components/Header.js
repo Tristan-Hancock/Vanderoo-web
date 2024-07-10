@@ -30,7 +30,7 @@ function Header() {
         </div>
         <ul className={styles.navLinks}>
           <li><a href="https://vanderoo.com/merchant/login.html">Merchant</a></li>
-          <li><a href="mailto:info@vanderoo.com">Contact Us</a></li>
+          <li><a href="mailto:vanderoo@strate.us">Contact Us</a></li>
           <li><a href="https://vanderoo.com/merchant/faq.html">FAQ</a></li>
         </ul>
       </nav>

@@ -13,7 +13,7 @@ function Footer() {
         </div>
         <div className={styles.links}>
           <a href="#about">About Us</a>
-          <a href="mailto:info@vanderoo.com">Contact</a>
+          <a href="mailto:vanderoo@strate.us">Contact</a>
           <a href="https://vanderoo.com/terms.html">Terms Of Service</a>
           <a href="https://vanderoo.com/privacy.html">Privacy Policy</a>
         </div>
